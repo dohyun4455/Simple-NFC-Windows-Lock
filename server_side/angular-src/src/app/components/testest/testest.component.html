@@ -1,0 +1,15 @@
+<h2 class="page-header">Post List </h2>
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th>ID</th>
+      <th>PW</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let user of users">
+      <td>{{user.id}}</td>
+      <td>{{user.pw}}</td>
+    </tr>
+  </tbody>
+</table>
